@@ -1,1 +1,1 @@
-"# semanatec" 
+# semanatec
