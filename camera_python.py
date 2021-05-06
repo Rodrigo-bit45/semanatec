@@ -34,7 +34,7 @@ if __name__ == '__main__':
                        [0.393, 0.769, 0.189]])
         sepia = cv2.filter2D(img, -1, kernel)
         blur = cv2.GaussianBlur(img, (blurNum,blurNum), 0)
-        img1 = cv2.imread(img)
+        img1 = cv2.imread('bicho.jpg')
         mask = cv2.imread('spiderman.png',0)
         res = cv2.bitwise_and(img1,img1,mask = mask)
         cv2.imshow("Tu borroso", blur)
