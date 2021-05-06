@@ -2,6 +2,7 @@ import cv2
 import time
 import argparse
 
+#Equipo 2: bla bla bla
 
 if __name__ == '__main__':
     script_start_time = time.time()
