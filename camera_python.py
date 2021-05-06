@@ -37,9 +37,11 @@ if __name__ == '__main__':
         img1 = cv2.imread('bicho.jpg')
         mask = cv2.imread('spiderman.png',0)
         res = cv2.bitwise_and(img1,img1,mask = mask)
+        sharpen = cv2.filter2D(src=img, kernel=sharpenKernel, ddepth=-1)
         cv2.imshow("Tu borroso", blur)
         cv2.imshow("Tu Spiderman",res)
         cv2.imshow("Tu sepia",sepia)
+        cv2,imshow("Tu afilado (sharpen)")
 
         k = cv2.waitKey(10)
         if k==27:
