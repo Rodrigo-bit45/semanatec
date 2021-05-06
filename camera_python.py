@@ -30,8 +30,11 @@ if __name__ == '__main__':
             break
 
         blur = cv2.GaussianBlur(img, (blurNum,blurNum), 0)
-        
-        cv2.imshow("Output", blur)
+        img1 = cv2.imread(img)
+        mask = cv2.imread('spiderman.png',0)
+        res = cv2.bitwise_and(img1,img1,mask = mask)
+        cv2.imshow("Tu borroso", blur)
+        cv2.imshow("Tu Spiderman",res)
 
         k = cv2.waitKey(10)
         if k==27:
