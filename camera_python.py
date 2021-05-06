@@ -1,8 +1,7 @@
+import numpy as np
 import cv2
 import time
 import argparse
-
-#Equipo 2: bla bla bla
 
 if __name__ == '__main__':
     script_start_time = time.time()
@@ -33,13 +32,14 @@ if __name__ == '__main__':
                        [0.349, 0.686, 0.168],
                        [0.393, 0.769, 0.189]])
         sepia = cv2.filter2D(img, -1, kernel)
+        
         blur = cv2.GaussianBlur(img, (blurNum,blurNum), 0)
-        img1 = cv2.imread('bicho.jpg')
-        mask = cv2.imread('spiderman.png',0)
-        res = cv2.bitwise_and(img1,img1,mask = mask)
+
+        im_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+        cv2.imshow("Tu en blanco y negro", im_gray)
         cv2.imshow("Tu borroso", blur)
-        cv2.imshow("Tu Spiderman",res)
-        cv2.imshow("Tu sepia",sepia)
+        cv2.imshow("Tu en sepia",sepia)
 
         k = cv2.waitKey(10)
         if k==27:
