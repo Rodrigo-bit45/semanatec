@@ -28,13 +28,18 @@ if __name__ == '__main__':
             break
         if img is None:
             break
-
+            
+        kernel = np.array([[0.272, 0.534, 0.131],
+                       [0.349, 0.686, 0.168],
+                       [0.393, 0.769, 0.189]])
+        sepia = cv2.filter2D(img, -1, kernel)
         blur = cv2.GaussianBlur(img, (blurNum,blurNum), 0)
         img1 = cv2.imread(img)
         mask = cv2.imread('spiderman.png',0)
         res = cv2.bitwise_and(img1,img1,mask = mask)
         cv2.imshow("Tu borroso", blur)
         cv2.imshow("Tu Spiderman",res)
+        cv2.imshow("Tu sepia",sepia)
 
         k = cv2.waitKey(10)
         if k==27:
