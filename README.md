@@ -33,6 +33,7 @@ Cabe recalcar que para usar uno de los 6 filtros disponibles, debes seleccionar 
 - Filtro 3: Cartoon
 - Filtro 4: Sharpen 
 - Filtro 5: Green color detection 
+Para cerrar todas las ventanas, presiona la tecla escape (Esc).
 
 ## REFERENCIAS
 - Krunal. (2020). How to convert RGB image to Grayscale in Python. AppDividend. Recuperado de: https://appdividend.com/2020/06/17/how-to-convert-rgb-image-to-grayscale-in-python/
