@@ -16,8 +16,11 @@ Equipo 2:
 
 ## Uso
 Clonar repositorio y pegar el link en la terminal: ```git clone https://github.com/Rodrigo-bit45/semanatec.git```
+
 El siguiente paso es escribir el parámetro que se muestra a continuación para escoger que cámara usar ```python3 camera_python.py -cam```
+
 Una vez escogiendo la cámara deseada, se usara este parametro para así escoger uno de los 5 filtros disponibles ```python3 camera_python.py -menu 4```
+
 Cabe recalcar que para usar uno de los 5 filtros disponibles, debes seleccionar un número entre el 0 y el 5, si no escribes un número de ese rango, el programa te pedirá escribir de nuevo un numero válido:
 - Filtro 0: Borroso
 - Filtro 1: Blanco y Negro 
