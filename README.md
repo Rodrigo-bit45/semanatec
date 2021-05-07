@@ -8,4 +8,7 @@ Equipo 2:
 - Andrés Alexander Mendoza Equihua
 - Ana Cristina Munguía Romero
 
+
+REFERENCIAS
+
 Borcan, M. (2020). Python OpenCV: Building Instagram-Like Image Filters. Towards Data Science. Recuperado de: https://towardsdatascience.com/python-opencv-building-instagram-like-image-filters-5c482c1c5079
