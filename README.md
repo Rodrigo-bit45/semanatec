@@ -9,6 +9,7 @@ Equipo 2:
 - Ana Cristina Munguía Romero
 
 
-REFERENCIAS
+## REFERENCIAS
 
-Borcan, M. (2020). Python OpenCV: Building Instagram-Like Image Filters. Towards Data Science. Recuperado de: https://towardsdatascience.com/python-opencv-building-instagram-like-image-filters-5c482c1c5079
+- Borcan, M. (2020). Python OpenCV: Building Instagram-Like Image Filters. Towards Data Science. Recuperado de: https://towardsdatascience.com/python-opencv-building-instagram-like-image-filters-5c482c1c5079
+- Ebrahim, M. (2020). Tutorial de procesar imágenes en Python (usando OpenCV). LIKE geeks. Recuperado de: https://likegeeks.com/es/procesar-de-imagenes-en-python/
