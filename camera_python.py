@@ -41,6 +41,13 @@ if __name__ == '__main__':
         cv2.imshow("Tu Spiderman",res)
         cv2.imshow("Tu sepia",sepia1)
 
+     
+        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        gray1 = cv2.medianBlur(gray, 5)
+        edges = cv2.adaptiveThreshold(gray1, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, 9, 9)
+        cv2.imshow("Tu en caricatura",edges)
+        
+
         k = cv2.waitKey(10)
         if k==27:
             break
