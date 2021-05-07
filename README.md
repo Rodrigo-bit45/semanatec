@@ -10,8 +10,8 @@ Equipo 2:
 ## Acerca de
 
 ## Instalar dependencias
--Open CV
--Python 3
+- Open CV
+- Python 3
 
 ## Uso
 
