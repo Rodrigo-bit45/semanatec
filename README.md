@@ -18,15 +18,15 @@ Este es un proyecto académico desarrollado durante la semana tec "El arte de la
 ## Uso
 Clonar repositorio y pegar el link en la terminal: ```git clone https://github.com/Rodrigo-bit45/semanatec.git```
 
-El siguiente paso es escribir el parámetro que se muestra a continuación para escoger qué cámara usar (default es 0)
+El siguiente paso es escribir el parámetro ```-cam``` que se muestra a continuación para escoger qué cámara usar (default es 0)
 
 ```python3 camera_python.py -cam 0```
 
-Una vez escogiendo la cámara deseada, se usara este parámetro para así escoger uno de los 5 filtros disponibles (default es 0)
+Una vez escogiendo la cámara deseada, se usará el parámetro ```-menu``` para así escoger uno de los 5 filtros disponibles (default es 0)
 
 ```python3 camera_python.py -menu 4```
 
-Cabe recalcar que para usar uno de los 5 filtros disponibles, debes seleccionar un número entre el 0 y el 5, si no escribes un número de ese rango, el programa te pedirá escribir de nuevo un numero válido:
+Cabe recalcar que para usar uno de los 6 filtros disponibles, debes seleccionar un número entre el 0 y el 5, si no escribes un número de ese rango, el programa te pedirá escribir de nuevo un número válido:
 - Filtro 0: Borroso
 - Filtro 1: Blanco y Negro 
 - Filtro 2: Sepia
