@@ -22,7 +22,7 @@ El siguiente paso es escribir el parámetro ```-cam``` que se muestra a continua
 
 ```python3 camera_python.py -cam 0```
 
-Una vez escogiendo la cámara deseada, se usará el parámetro ```-menu``` para así escoger uno de los 5 filtros disponibles (default es 0)
+Una vez escogiendo la cámara deseada, se usará el parámetro ```-menu``` para así escoger uno de los 6 filtros disponibles (default es 0)
 
 ```python3 camera_python.py -menu 4```
 
