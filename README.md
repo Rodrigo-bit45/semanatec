@@ -9,7 +9,7 @@ Equipo 2:
 - Ana Cristina Munguía Romero
 
 ## Acerca de
-
+- Este proyecto trata sobre el procesamiento de imágenes, por lo cual se desarrolló un código con 6 filtros diferentes, que puedes correr desde tu computadora, a continuación se presentará algunos prerequisitos para poder correr el programa, y el uso con su explicación. 
 ## Instalar dependencias
 - Open CV
 - Python 3
