@@ -42,7 +42,17 @@ if __name__ == '__main__':
         elif menuNum == 2:
             im_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
             cv2.imshow("Tu en blanco y negro", im_gray)
-       
+
+        sepia = cv2.filter2D(img, -1, kernel)
+        blur = cv2.GaussianBlur(img, (blurNum,blurNum), 0)
+        
+        
+        
+        sharpen = cv2.filter2D(src=img, kernel=sharpenKernel, ddepth=-1)
+        cv2.imshow("Tu borroso", blur)
+        
+        cv2.imshow("Tu sepia",sepia)
+        cv2,imshow("Tu afilado (sharpen)")
 
         k = cv2.waitKey(10)
         if k==27:
