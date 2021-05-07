@@ -8,6 +8,7 @@ Equipo 2:
 - Andrés Alexander Mendoza Equihua
 - Ana Cristina Munguía Romero
 ## Acerca de
+Este es un programa en lenguaje python. Utiliza la cámara del dispositivo donde se corra y le aplica distintos filtros. Se puede utilizar el filtro sepia, gaussiano, con máscara, entre otros. 
 
 ## Instalar dependencias
 - Open CV
