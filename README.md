@@ -15,7 +15,7 @@ Este es un programa en lenguaje python. Utiliza la cámara del dispositivo donde
 - Python 3
 
 ## Uso
-
+Se utilizaría para jugar con filtros de una manera sencilla e interactiva. 
 
 ## REFERENCIAS
 - Krunal. (2020). How to convert RGB image to Grayscale in Python. AppDividend. Recuperado de: https://appdividend.com/2020/06/17/how-to-convert-rgb-image-to-grayscale-in-python/
