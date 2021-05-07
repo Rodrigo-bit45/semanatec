@@ -46,8 +46,8 @@ if __name__ == '__main__':
         gray1 = cv2.medianBlur(gray, 5)
         edges = cv2.adaptiveThreshold(gray1, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, 9, 9)
         cv2.imshow("Tu en caricatura",edges)
-                #BGR image feed from camera
-        ret, img = cap.read()
+        #BGR image feed from camera
+        
         #Lea la imagen y conviértala en HSV usando cvtColor():
         hsv_img = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
         #Ahora se crea una matriz NumPy para los valores verdes inferiores y los valores verdes superiores:
