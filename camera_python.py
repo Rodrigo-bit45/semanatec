@@ -31,7 +31,11 @@ if __name__ == '__main__':
         kernel = np.array([[0.272, 0.534, 0.131],
                        [0.349, 0.686, 0.168],
                        [0.393, 0.769, 0.189]])
-     
+        
+        sharpenKernel = np.array(([[0, -1, 0], [-1, 9, -1], [0, -1, 0]]), np.float32)/9
+        sharpen = cv2.filter2D(img, kernel=sharpenKernel, ddepth=-1)
+        cv2.imshow("Tu afilado (sharpen)", sharpen)
+
         sepia1 = cv2.filter2D(img, -1, kernel)
         blur = cv2.GaussianBlur(img, (blurNum,blurNum), 0)
         im_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -43,7 +47,6 @@ if __name__ == '__main__':
         edges = cv2.adaptiveThreshold(gray1, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, 9, 9)
         cv2.imshow("Tu en caricatura",edges)
         
-
         k = cv2.waitKey(10)
         if k==27:
             break
