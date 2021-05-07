@@ -42,7 +42,7 @@ if __name__ == '__main__':
         cv2.imshow("Tu borroso", blur)
         cv2.imshow("Tu Spiderman",res)
         cv2.imshow("Tu sepia",sepia)
-        cv2,imshow("Tu afilado (sharpen)")
+        cv2.imshow("Tu afilado (sharpen)", sharpen)
 
         k = cv2.waitKey(10)
         if k==27:
