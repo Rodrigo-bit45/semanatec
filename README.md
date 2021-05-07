@@ -18,6 +18,8 @@ Este es un proyecto académico desarrollado durante la semana tec "El arte de la
 ## Uso
 Clonar repositorio y pegar el link en la terminal: ```git clone https://github.com/Rodrigo-bit45/semanatec.git```
 
+Para ver información sobre los parámetros que recibe el programa, usar el comando: ```python3 camera_python.py -h```
+
 El siguiente paso es escribir el parámetro ```-cam``` que se muestra a continuación para escoger qué cámara usar (default es 0)
 
 ```python3 camera_python.py -cam 0```
