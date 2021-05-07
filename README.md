@@ -29,3 +29,4 @@ Equipo 2:
 - Krunal. (2020). How to convert RGB image to Grayscale in Python. AppDividend. Recuperado de: https://appdividend.com/2020/06/17/how-to-convert-rgb-image-to-grayscale-in-python/
 - Borcan, M. (2020). Python OpenCV: Building Instagram-Like Image Filters. Towards Data Science. Recuperado de: https://towardsdatascience.com/python-opencv-building-instagram-like-image-filters-5c482c1c5079
 - Ebrahim, M. (2020). Tutorial de procesar imágenes en Python (usando OpenCV). LIKE geeks. Recuperado de: https://likegeeks.com/es/procesar-de-imagenes-en-python/
+- How to apply filters to images using Python and OpenCV (2020). Recuperado de: https://image4.io/en/blog/how-to-apply-filters-to-images-using-python-and-opencv/ 
