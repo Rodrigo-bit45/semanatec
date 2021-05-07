@@ -38,3 +38,4 @@ Cabe recalcar que para usar uno de los 5 filtros disponibles, debes seleccionar 
 - Borcan, M. (2020). Python OpenCV: Building Instagram-Like Image Filters. Towards Data Science. Recuperado de: https://towardsdatascience.com/python-opencv-building-instagram-like-image-filters-5c482c1c5079
 - Ebrahim, M. (2020). Tutorial de procesar imágenes en Python (usando OpenCV). LIKE geeks. Recuperado de: https://likegeeks.com/es/procesar-de-imagenes-en-python/
 - How to apply filters to images using Python and OpenCV (2020). Recuperado de: https://image4.io/en/blog/how-to-apply-filters-to-images-using-python-and-opencv/ 
+-Converting An Image To A Cartoon Using OpenCV (2020) OIM. Recupeado de: https://analyticsindiamag.com/converting-an-image-to-a-cartoon/
